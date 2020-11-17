@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+* {
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../../fonts/Poppins-BlackItalic.eot");
+  src: url("../../fonts/Poppins-BlackItalic.eot") format("embedded-opentype"), url("../../fonts/Poppins-BlackItalic.woff2") format("woff2"), url("../../fonts/Poppins-BlackItalic.woff") format("woff"), url("../../fonts/Poppins-BlackItalic.ttf") format("truetype"), url("../../fonts/Poppins-BlackItalic.svg") format("svg");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap; }
+
+header {
+  max-width: 1366px;
+  width: 100%;
+  height: 324px;
+  margin: 0;
+  padding: 0;
+  background-image: url(./../pictures/head.png);
+  background-size: cover; }
+  header .container .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 140px 0 140px; }
+    header .container .navbar h4 a {
+      color: #FFFFFF;
+      font-family: 'Poppins'; }
+  header .container .navbar-li {
+    display: inline-block; }
+    header .container .navbar-li a {
+      color: #FFFFFF;
+      padding-left: 50px;
+      font-size: 12px;
+      font-family: 'Poppins'; }
+  header .container .navbar-li1 {
+    display: inline-block; }
+    header .container .navbar-li1 a {
+      color: #FFFFFF;
+      font-family: 'Poppins';
+      font-size: 12px; }
+      header .container .navbar-li1 a:hover {
+        color: #5863F8; }
+  header .container .header-info {
+    padding: 145px 0 0 140px; }
+    header .container .header-info a {
+      color: #FFFFFF; }
+    header .container .header-info h4 {
+      display: inline-block;
+      font-size: 14px;
+      font-family: 'Poppins'; }
+    header .container .header-info h2 {
+      font-size: 42px;
+      font-family: 'Poppins'; }
+    header .container .header-info .border::after {
+      content: '';
+      display: inline-block;
+      width: 1px;
+      height: 19px;
+      background-color: #FFFFFF;
+      margin-left: 15px;
+      margin-right: 15px; }
+
+.box-p1 {
+  font-size: 14px;
+  font-family: 'Poppins';
+  padding: 90px 0 0 140px; }
+
+a {
+  color: #5863F8; }
+
+.article {
+  font-size: 42px;
+  font-family: 'Poppins';
+  padding-top: 15px;
+  padding-left: 140px; }
+
+.container1 {
+  width: 1080px;
+  margin: 50px 140px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .container1 .box {
+    width: 536px;
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    border-right: 60px solid #5863F8; }
+    .container1 .box .box-text {
+      padding: 37px 0 0 15px; }
+      .container1 .box .box-text p {
+        padding-top: 10px;
+        padding-right: 30px;
+        font-size: 14px;
+        font-family: 'Poppins';
+        color: #B1B1B1; }
+      .container1 .box .box-text h5 {
+        padding-top: 10px;
+        font-size: 18px;
+        font-family: 'Poppins'; }
+      .container1 .box .box-text .box-p {
+        color: #5863F8; }
+      .container1 .box .box-text .arrow {
+        position: absolute;
+        right: 0;
+        bottom: 45%;
+        margin-right: -35px; }
