@@ -1,0 +1,92 @@
+.container1 {
+      width: 1080px;
+      margin: $size05 $size08;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .box {
+          width: 536px;
+          display: flex;
+          position: relative;
+          margin-top: $size05;
+          border-right: 60px solid $color02;
+          .box-text {
+                padding: 37px 0 0 $size02;
+                p {
+                    padding-top: $size001;
+                    padding-right: $size03;
+                    font-size: $size004;
+                    font-family: 'Poppins';
+                    color: $color03;
+                }
+                h5 {
+                    padding-top: $size001;
+                    font-size: 18px;
+                    font-family: 'Poppins';
+                }
+                .box-p {
+                    color: $color02;
+                }
+                .arrow {
+                    position: absolute;
+                    right: 0;
+                    bottom: 45%;
+                    margin-right: -35px;
+                }
+          }
+        }
+}
+.container2 {
+    width: 1080px;
+    margin: 120px 0 0 $size08;
+    padding-bottom: 60px;
+    form {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        label {
+            padding-right: 145px;
+            font-family: 'Poppins';
+            color: $color02;
+            font-size: 13px;
+        }
+        .form-content1 {
+            padding-bottom: $size001;
+        }
+        .form-content2 input {
+            border: 1px solid #EBEBEB;
+            padding:$size002;
+            color: #CECECE;
+            font-size: 13px;
+            font-family: 'Poppins';
+            opacity: 40%;
+        }
+        .form-content-send {
+            position: absolute;
+            width: 260px;
+            height: 60px;
+            right: $size03;
+            bottom: 0px;
+            background: $color02;
+            border: 1px solid $color02;
+            .form-content-text {
+                padding: 17px 90px;
+            }
+            .form-content-text a{
+                color: $color01;
+                display: inline-block;
+            }
+        }
+    }
+}
+.box-p1 {
+    font-size: $size004;
+    font-family: 'Poppins';
+    padding: 90px 0 0 $size08;
+  }
+.article{
+    font-size: $size04;
+    font-family: 'Poppins';
+    padding-top: $size02;
+    padding-left: $size08;
+}

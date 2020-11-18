@@ -1,0 +1,76 @@
+footer {
+    max-width: 1366px;
+    width: 100%;
+    height: 395px;
+    padding-top: 60px;
+    background-color: #121212;
+    position: relative;
+    .container3 {
+        margin: 90px $size08;
+        display: flex;
+        .box-one {
+            width: 260px;
+            height: 191px;
+            p {
+                padding: $size002 0;
+                color: $color03;
+                font-family: 'Poppins';
+            }
+            a {
+                color: $color01;
+                font-family: 'Poppins';
+            }
+        }
+        .footer-contacts {
+            display: flex;
+            padding-left: 200px;
+            .box-two {
+                padding-right: 75px;
+                h5 {
+                    padding-bottom: $size002;
+                    color: $color01;
+                }
+            }
+            .box-four {              
+                h5 {
+                    padding-bottom: $size002;
+                    color: $color01;
+                }
+                a{
+                    color: $color01;
+                }
+            }
+        }
+        .footer-navbar {
+            li {
+                padding-top: $size001;
+                list-style: none;
+                a {
+                    color: $color02;
+                }
+            }
+        }
+        .footer-contact {
+            display: flex;
+            justify-content: flex-start;
+            img {
+                padding-right: $size001;
+                padding-top: $size001;
+                margin: 0 0 $size002;  
+            }
+        }
+    }
+    .last-ps {
+        position: absolute;
+        bottom: $size003;
+        left: $size08x;
+        p {
+            display: inline-block;
+            color: $color03;
+            padding-right: 155px;
+        }
+    }
+    .last-ps :last-child a{
+            color:$color02 ;
+    }
+}

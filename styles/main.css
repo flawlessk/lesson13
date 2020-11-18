@@ -95,20 +95,6 @@ header {
       margin-left: 15px;
       margin-right: 15px; }
 
-.box-p1 {
-  font-size: 14px;
-  font-family: 'Poppins';
-  padding: 90px 0 0 140px; }
-
-a {
-  color: #5863F8; }
-
-.article {
-  font-size: 42px;
-  font-family: 'Poppins';
-  padding-top: 15px;
-  padding-left: 140px; }
-
 .container1 {
   width: 1080px;
   margin: 50px 140px;
@@ -177,11 +163,67 @@ a {
         color: white;
         display: inline-block; }
 
+.box-p1 {
+  font-size: 14px;
+  font-family: 'Poppins';
+  padding: 90px 0 0 140px; }
+
+.article {
+  font-size: 42px;
+  font-family: 'Poppins';
+  padding-top: 15px;
+  padding-left: 140px; }
+
 footer {
   max-width: 1366px;
   width: 100%;
   height: 395px;
   padding-top: 60px;
-  background-color: #121212; }
+  background-color: #121212;
+  position: relative; }
   footer .container3 {
-    margin: 90px 140px; }
+    margin: 90px 140px;
+    display: flex; }
+    footer .container3 .box-one {
+      width: 260px;
+      height: 191px; }
+      footer .container3 .box-one p {
+        padding: 20px 0;
+        color: #B1B1B1; }
+      footer .container3 .box-one a {
+        color: white; }
+    footer .container3 .footer-contacts {
+      display: flex;
+      padding-left: 200px; }
+      footer .container3 .footer-contacts .box-two {
+        padding-right: 75px; }
+        footer .container3 .footer-contacts .box-two h5 {
+          padding-bottom: 20px;
+          color: white; }
+      footer .container3 .footer-contacts .box-four h5 {
+        padding-bottom: 20px;
+        color: white; }
+      footer .container3 .footer-contacts .box-four a {
+        color: white; }
+    footer .container3 .footer-navbar li {
+      padding-top: 10px;
+      list-style: none; }
+      footer .container3 .footer-navbar li a {
+        color: #5863F8; }
+    footer .container3 .footer-contact {
+      display: flex;
+      justify-content: flex-start; }
+      footer .container3 .footer-contact img {
+        padding-right: 10px;
+        padding-top: 10px;
+        margin: 0 0 20px; }
+  footer .last-ps {
+    position: absolute;
+    bottom: 40px;
+    left: 140px; }
+    footer .last-ps p {
+      display: inline-block;
+      color: #B1B1B1;
+      padding-right: 155px; }
+  footer .last-ps :last-child a {
+    color: #5863F8; }
